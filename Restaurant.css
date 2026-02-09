@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 4000px;
+    background-image: url("/Picture/Bild2.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1-div{
+    display: inline-flex;
+}
+.img1{
+    width: 100%;
+    height: auto;
+}
+.Header{
+    display: inline-flex;
+    height: 130px;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.37);
+    z-index: 2;
+}
+.Header-transparent{
+    background-color: transparent;
+}
+.Header-scrolled{
+    background-color: black;
+}
+.Header-Tiel-div{
+    display: inline-flex;
+}
+.Header-Titel{
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 43px;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style:normal;
+}
+.KOntakt-Header-Div{
+    display: inline-flex;
+}
+.Kontakt-Div{
+    font-size: 21px;
+    margin-left: 682px;
+    margin-top: 74px;
+    position: absolute;
+    color: white;
+}
+.schriften-drauf{
+    position: absolute;
+    display: inline-block;
+    font-size: 90px;
+    color: white;
+    margin-top: 320px;
+    margin-left: 350px;
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-style:normal; 
+}
+.schriften-drau2{
+    position: absolute;
+    display: inline-block;
+    font-size: 90px;
+    color: white;
+    margin-top: 425px;
+    margin-left: 405px;
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+}
+.image3{
+    position: absolute;
+    display: inline-flex;
+    height: 450px;
+    margin-left: 130px;
+    margin-bottom: 90px;
+    z-index: 1;
+}
+.image3-1{
+    border-radius: 3%;
+}
+.div-teil3{
+    background-color:rgb(237, 227, 211);
+    display: inline-block;
+    margin-top: 800px;
+    height: 700px;
+    width: 100%;
+}
+.text1{
+    display: block;
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-size: 55px;
+    margin-top: 90px;
+    margin-left: 300px;
+    color: rgb(48, 48, 48);
+}
+.text2{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 140px;
+    margin-left: 300px;
+    color: rgb(71, 70, 69)  ;
+}
+.div-teil4{
+    display: inline-block;
+    background-color: rgb(237, 227, 211);
+    width: 100%;
+    height: 890px;
+}
+.text4{
+    font-size: 60px;
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    margin-top: 125px;
+    margin-left: 240px;
+    color: rgb(71, 70, 69)  ;
+}
+.text4-teil2{
+    font-size: 60px;
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    margin-left: 490px;
+    color: rgb(71, 70, 69)  ;
+}
+.kleiner-Bilder1{
+    width: 280px;
+    margin-left: 30px;
+    margin-right: 90px;
+    margin-top: 90px;
+}
+.kleiner-Bilder2{
+    width: 280px;
+    margin-top: 90px;
+    margin-right: 62px;
+}
+.kleiner-Bilder3{
+    width: 280px;
+    margin-left: 30px;
+    margin-top: 90px;
+    margin-right: 52px;
+}
+.kleiner-Bilder4{
+    width: 280px;
+    margin-left: 30px;
+    margin-top: 90px;
+}
+.divimage4{
+    display: inline-flex;
+    width: 250px;
+    height: 300px;
+}
+.div-überschrift-teil4{
+    display: inline-block;
+}
+.img4{
+    display: inline-block;
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+}
+.text5{
+    display: inline-flex;
+    font-size: 30px;
+    margin-left:10px ;
+    margin-top: 22px;
+    font-family: "Pacifico", cursive;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(62, 61, 61);
+}
+.text6{
+    display: inline-flex;
+    font-size: 17px;
+    margin-left:45px ;
+    margin-top: 8px;
+    font-family: "Pacifico", cursive;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(102, 101, 101);
+}
+.divderkreise{
+    display: inline-flex;
+    flex-direction: row;
+}
+.divteil5{
+    display: inline-flex;
+    background-color:#3b141c;
+    height: 500px;
+    width: 100%;
+}
+.div-img5{
+    display: inline-block;
+    margin-top: 55px;
+    margin-left: 70px;
+}
+.img5{
+    width: 590px;
+}
+.divteil5-versamllung{
+    display: inline-flex;
+    flex-direction: column;
+}
+.divteil4-text1{
+    font-size: 60px;
+    color: white;
+    margin-top: 90px;
+    margin-left: 87px;
+    font-family: "Edu VIC WA NT Hand Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.divteil4-text2{
+    font-size: 60px;
+    color: white;
+    margin-top: 0px;
+    margin-left: 87px;
+    font-family: "Edu VIC WA NT Hand Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight
+    font-style: normal;
+}
+.divteil4-text3{
+    font-size: 60px;
+    color: white;
+    margin-top: 0px;
+    margin-left: 87px;
+    font-family: "Edu VIC WA NT Hand Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.divteil4-text4{
+    font-size: 60px;
+    color: white;
+    margin-top: 0px;
+    margin-left: 87px;
+    font-family: "Edu VIC WA NT Hand Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.divteil6{
+    background-color:rgb(237, 227, 211) ;
+    height: 900px;
+    display: inline-flex;
+    width: 100%;
+}
+.divteil6-teiltext1{
+    font-size: 65px;
+    display: inline-block;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-left: 190px;
+    margin-top: 240px;
+    height: 50px;
+}
+.div-teil6-text2{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.div-teil6-text3{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.Picture-divteil5{
+    display: inline-block;
+    margin-top: 120px;
+    margin-left: 150px;
+}
+.picture-teil5{
+    width: 500px;
+}
+.ÖffnungszeitenundStandort{
+    position: absolute;
+    margin-top: 490px;
+    margin-left: 200px;
+}
+.Standort{
+    font-size: 30px;
+    color: rgb(100, 82, 52);
+}
+.Beispielstraße{
+    font-size: 25px;
+    color: rgb(100, 82, 52);
+    margin-top: 10px;
+}
+.Öffnungszeiten{
+    font-size: 30px;
+    color: rgb(100, 82, 52);
+}
+.Montag{
+    font-size: 25px;
+    color: rgb(100, 82, 52);
+    margin-top: 10px;
+}
+.Öffnungszeiten-div{
+    margin-top: 25px;
+}
+.divteilende{
+    height: 790px;
+    background-color: rgb(34, 3, 3);
+}
+.Picture-teilende{
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+.Picture-teilende1-div1{
+    display: inline-block;
+    margin-left: 46px;
+}
+.Picture-teilende1-div2{
+    display: inline-block;
+    margin-left: 27px;
+}
+.Picture-teilende1-div3{
+    display: inline-block;
+    margin-left: 27px;
+}
+.Picture-teilende1-div4{
+    display: inline-block;
+    margin-left: 27px;
+}
+.picture-teilende1{
+    width: 320px;
+}
+.picture-teilende2{
+    width: 320px;
+}
+.picture-teilende3{
+    width: 320px;
+}
+.picture-teilende4{
+    width: 320px;
+}
+.teilende-schriften{
+    display: inline-flex;
+    flex-direction: column;
+}
+.teilende-schriften1{
+    color: white;
+    font-size: 18px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 80px;
+    margin-left: 46px;
+}
+.teilende-schriften2{
+    color: white;
+    font-size: 18px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 46px;
+}
+.teilende-schriften3{
+    color: white;
+    font-size: 18px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 46px;
+}
